@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inclusive Sans', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.name {
+    grid-row: 2 / 1;
+    grid-column: 2 / span 2;
+}
+
+.education {
+    display: grid;
+    gap: 1rem;
+}
+
+.edu_style1 {
+    text-decoration: underline;
+    grid-row: 1 / span 1;
+    grid-column: 2 / 1;
+}
+
+.education1 {
+    grid-column: 1 / 1;
+    grid-row: 2 / span 1;
+    padding: 0em 7em 0em;
+}
+
+.education2 {
+    grid-column: 1 / 1;
+    grid-row: 3 / span 1;
+    padding: 0em 7em 0em;
+}
+
+.education1 > p {
+    line-height: 0.5rem;
+}
+
+.education2 > p {
+    line-height: 0.5rem;
+}
+
+.exp_style {
+    text-decoration: underline;
+}
+.experience {
+    display: grid;
+    gap: 1rem;
+}
+
+.exp1 {
+    grid-column: 1 / 1;
+    grid-row: 2 / span 1;
+    padding: 0em 7em 0em;
+    text-align: left;
+}
+
+.exp2 {
+    grid-column: 1 / 1;
+    grid-row: 3 / span 1;
+    padding: 0em 7em 0em;
+    text-align: left;
+}
+
+.fe_exp_style {
+    text-decoration: underline;
+}
+.fe_experience {
+    display: grid;
+    gap: 1rem;
+}
+
+.fe_exp1 {
+    grid-column: 1 / 1;
+    grid-row: 2 / span 1;
+    padding: 0em 7em 0em;
+    text-align: left;
+}
+
+.fe_exp2 {
+    grid-column: 1 / 1;
+    grid-row: 3 / span 1;
+    padding: 0em 7em 0em;
+    text-align: left;
+}
+
+h4 {
+    margin-top: -10px;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+footer {
+    color: #325B7A;
+    text-align: center;
+}
