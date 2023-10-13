@@ -5,7 +5,30 @@ body {
 }
 .top {
     font-family: 'Inclusive Sans', sans-serif;
+    margin-top: -5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b2d4ed;
+}
+
+li {
+    float: left;
+  }
+
+li a {
     display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #d9efff7f;
 }
 
 h1 {
